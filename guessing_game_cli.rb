@@ -14,8 +14,8 @@ end
 
 def play_game (computer_number)
   user_number = get_user_number
+  binding.pry
   if user_number == computer_number
-    binding.pry
     puts "You guessed the correct number!"
   end
   if user_number != computer_number && user_number != "exit"
