@@ -1,7 +1,7 @@
 require 'pry'
 # Code your solution here!
 def get_computer_number
-  1 + rand(5)
+  1 + rand(6)
 end
 
 def prompt_user
