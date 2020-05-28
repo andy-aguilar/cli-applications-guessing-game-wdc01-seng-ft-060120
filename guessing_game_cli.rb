@@ -17,7 +17,7 @@ def play_game (computer_number)
     puts "You guessed the correct number!"
   end
   if user_number != computer_number && user_number != "exit"
-    puts "Sorry! The computer guessed #{computer_number}"
+    puts "Sorry! The computer guessed #{computer_number}."
   end
   if user_number == "exit"
     puts "Goodbye!"
