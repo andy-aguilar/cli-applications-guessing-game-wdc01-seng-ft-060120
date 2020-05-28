@@ -1,3 +1,4 @@
+require 'pry'
 # Code your solution here!
 def get_computer_number
   1 + rand(6)
@@ -14,6 +15,7 @@ end
 def play_game (computer_number)
   user_number = get_user_number
   if user_number == computer_number
+    binding.pry
     puts "You guessed the correct number!"
   end
   if user_number != computer_number && user_number != "exit"
