@@ -12,7 +12,6 @@ def get_user_number
 end
 
 def play_game (computer_number)
-  prompt_user
   user_number = get_user_number
   if user_number == computer_number
     puts "You guessed the correct number!"
