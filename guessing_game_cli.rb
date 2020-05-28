@@ -11,4 +11,5 @@ def prompt_user
 end
 
 def get_user_number
-  get 
+  gets.chomp
+end
