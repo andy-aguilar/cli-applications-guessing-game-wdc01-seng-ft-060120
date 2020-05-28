@@ -7,5 +7,8 @@ def get_computer_number
 end
 
 def prompt_user
-
+  puts "Guess a number, bro"
 end
+
+def get_user_number
+  get 
