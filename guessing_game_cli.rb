@@ -11,7 +11,9 @@ def get_user_number
   gets.chomp
 end
 
-def play_game (user_number, computer_number)
+def play_game (computer_number)
+  prompt_user
+  get_user_number
   if user_number == computer_number
     puts "You guessed the correct number!"
   end
@@ -25,7 +27,5 @@ end
 
 def run_guessing_game
   computer_number = get_computer_number
-  prompt_user
-  user_number = get_user_number
-  play_game ()
+  play_game (computer_number)
 end
