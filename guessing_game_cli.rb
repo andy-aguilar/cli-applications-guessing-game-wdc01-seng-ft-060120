@@ -15,8 +15,17 @@ def play_game (user_number, computer_number)
   if user_number == computer_number
     puts "You guessed the correct number!"
   end
-  if user_number == 
+  if user_number != computer_number && user_number != "exit"
+    puts "Sorry! The computer guessed #{computer_number}"
+  end
+  if user_number == "exit"
+    puts "Goodbye!"
+  end
 end
 
 def run_guessing_game
+  computer_number = get_computer_number
+  prompt_user
+  user_number = get_user_number
+  play_game ()
 end
