@@ -26,6 +26,5 @@ def play_game (computer_number)
 end
 
 def run_guessing_game
-  computer_number = get_computer_number
-  play_game (computer_number)
+  play_game (get_computer_number)
 end
